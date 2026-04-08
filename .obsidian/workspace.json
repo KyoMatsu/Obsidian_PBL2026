@@ -1,0 +1,217 @@
+{
+  "main": {
+    "id": "d84597b73cd709d1",
+    "type": "split",
+    "children": [
+      {
+        "id": "a23e70defef58998",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "43c10869cf2bac29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03_Knowledge/Claude/Obsidian×GitHub連携手順.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Obsidian×GitHub連携手順"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8704b7befcea51b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "803b1e3bea46d9d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b43b878032a602e7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "ファイルエクスプローラ"
+            }
+          },
+          {
+            "id": "375b4d1101d65f4f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "検索"
+            }
+          },
+          {
+            "id": "4d204743d9d0a412",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "ブックマーク"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2df733966731b51c",
+    "type": "split",
+    "children": [
+      {
+        "id": "d0904bcef614fafa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "768477b4c46a9d84",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "03_Knowledge/Claude/Obsidian×GitHub連携手順.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Obsidian×GitHub連携手順へのバックリンク"
+            }
+          },
+          {
+            "id": "19878e0e21d9b677",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "02_WeeklyReport/第〇週 週報.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "第〇週 週報からのアウトゴーイングリンク"
+            }
+          },
+          {
+            "id": "d39db5f918a1e60c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "タグ"
+            }
+          },
+          {
+            "id": "06032e0163205930",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "すべてのプロパティ"
+            }
+          },
+          {
+            "id": "b79bd83cfd473d90",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02_WeeklyReport/第〇週 週報.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "第〇週 週報のアウトライン"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false,
+      "bases:新規ベースを作成": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "43c10869cf2bac29",
+  "lastOpenFiles": [
+    "03_Knowledge/ウォーターフォールとアジャイル.md",
+    "03_Knowledge/Claude/Obsidian×GitHub連携手順.md",
+    "03_Knowledge/Claude",
+    "99_Inbox/今更聞けないアジャイル開発とウォーターフォール開発の違い｜Ｓｋｙ Tech Blog（スカイ テック ブログ）.md",
+    "99_Inbox/「アジャイル vs ウォーターフォール」からプロジェクト管理を考える.md",
+    "99_Inbox/ウォーターフォールとアジャイルの違いを比較しながら解説！使い分け比較表.md",
+    "03_Knowledge/Obsidianフォルダ整理.md",
+    "02_WeeklyReport/第〇週 週報.md",
+    "03_Knowledge/Obsidian使い方.md",
+    "99_Inbox/仕事でObsidianをどのように使っているか.md",
+    "04_Template/knowledge.md",
+    "99_Inbox/ゲーミフィケーションとは？必須要素と事例＆バートルテストの解説！  日本コンベンションサービス株式会社 - JCS.md",
+    "03_Knowledge/.md",
+    "04_Template/weekly.md",
+    "04_Template/daily.md",
+    "01_Daily/2026-04-07.md",
+    "2026-04-07.md",
+    "01_Daily/2026-04-08.md",
+    "04_Template/新規 テキスト ドキュメント.txt",
+    "01_Daily/2026-04-06.md",
+    "99_Inbox",
+    "03_Knowledge",
+    "ようこそ.md",
+    "04_Template",
+    "02_WeeklyReport",
+    "01_Daily"
+  ]
+}
