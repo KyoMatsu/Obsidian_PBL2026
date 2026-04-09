@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_Knowledge/主記憶装置・補助記憶装置.md",
-                "mode": "preview",
+                "file": "Claude/身近なLinux搭載機器まとめ.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "主記憶装置・補助記憶装置"
+              "title": "身近なLinux搭載機器まとめ"
             }
           }
         ]
@@ -188,10 +188,12 @@
   },
   "active": "43c10869cf2bac29",
   "lastOpenFiles": [
-    "99_Inbox/【図解あり】主記憶装置と補助記憶装置の仕組みと種類について.md",
     "03_Knowledge/主記憶装置・補助記憶装置.md",
+    "Claude/身近なLinux搭載機器まとめ.md",
+    "Claude",
+    "99_Inbox/【図解あり】主記憶装置と補助記憶装置の仕組みと種類について.md",
     "99_Inbox/「主記憶装置」と「補助記憶装置」の違い.md",
-    "03_Knowledge/Claude/Obsidian×GitHub連携手順.md",
+    "Claude/Obsidian×GitHub連携手順.md",
     "03_Knowledge/ウォーターフォールとアジャイル.md",
     "03_Knowledge/Claude",
     "99_Inbox/今更聞けないアジャイル開発とウォーターフォール開発の違い｜Ｓｋｙ Tech Blog（スカイ テック ブログ）.md",
