@@ -1,5 +1,5 @@
 <%*
-await tp.file.move("02_WeeklyReport/第〇週 週報")
+await tp.file.move("02_WeeklyReport/第〇週_週報_松本")
 -%>
 ---
 tags:
