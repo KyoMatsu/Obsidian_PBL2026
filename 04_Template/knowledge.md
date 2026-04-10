@@ -2,7 +2,9 @@
 await tp.file.move("03_Knowledge/Untitled")
 -%>
 ---
-tags: [knowledge, 調査]
+tags: 
+- knowledge
+- 調査
 created: <% tp.date.now("YYYY-MM-DD") %>
 ---
 
