@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_Knowledge/Obsidian使い方.md",
+                "file": "Claude/Obsidian×GitHub連携手順.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian使い方"
+              "title": "Obsidian×GitHub連携手順"
             }
           }
         ],
@@ -217,12 +217,13 @@
   },
   "active": "ef2b684348d10b51",
   "lastOpenFiles": [
+    "Claude/身近なLinux搭載機器まとめ.md",
+    "03_Knowledge/Obsidian使い方.md",
     "03_Knowledge/Claude連携が突然できなくなった場合の対処.md",
     "01_Daily/2026-04-08.md",
     "01_Daily/2026-04-07.md",
     "01_Daily/2026-04-06.md",
     "03_Knowledge/Obsidianフォルダ整理.md",
-    "03_Knowledge/Obsidian使い方.md",
     "02_WeeklyReport/第〇週 週報.md",
     "04_Template/weekly.md",
     "06_AIBasic/ChikaDiff_紹介文.md",
@@ -234,7 +235,6 @@
     "03_Knowledge/主記憶装置・補助記憶装置.md",
     "04_Template/knowledge.md",
     "03_Knowledge/ウォーターフォールとアジャイル.md",
-    "Claude/身近なLinux搭載機器まとめ.md",
     "Claude",
     "99_Inbox/【図解あり】主記憶装置と補助記憶装置の仕組みと種類について.md",
     "99_Inbox/「主記憶装置」と「補助記憶装置」の違い.md",
