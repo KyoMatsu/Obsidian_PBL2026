@@ -8,63 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "43c10869cf2bac29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03_Knowledge/Webアプリ開発におけるモックアップ作成とは.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Webアプリ開発におけるモックアップ作成とは"
-            }
-          },
-          {
-            "id": "12144b5a263414a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "05_Prompt/HTML・CSSデザイナー.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "HTML・CSSデザイナー"
-            }
-          },
-          {
-            "id": "ef2b684348d10b51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03_Knowledge/Claude連携が突然できなくなった場合の対処.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Claude連携が突然できなくなった場合の対処"
-            }
-          },
-          {
             "id": "da13f25c73f54842",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "無題のファイル.md",
+                "file": "EC2_CloudWatchAgent_メモリ連携手順_AL2023.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "無題のファイル"
+              "title": "EC2_CloudWatchAgent_メモリ連携手順_AL2023"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.50694274902344
+    "width": 240.50694274902344,
+    "collapsed": true
   },
   "right": {
     "id": "2df733966731b51c",
@@ -223,7 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 248.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,7 +199,7 @@
   "active": "da13f25c73f54842",
   "lastOpenFiles": [
     "03_Knowledge/Claude連携が突然できなくなった場合の対処.md",
-    "無題のファイル.md",
+    "EC2_CloudWatchAgent_メモリ連携手順_AL2023.md",
     "Claude/Obsidian×GitHub連携手順.md",
     "Claude/身近なLinux搭載機器まとめ.md",
     "03_Knowledge/Obsidian使い方.md",
