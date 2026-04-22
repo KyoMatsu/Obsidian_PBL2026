@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EC2_CloudWatchAgent_メモリ連携手順_AL2023.md",
+                "file": "Claude/EC2_CloudWatchAgent_メモリ連携手順_AL2023.md",
                 "mode": "source",
                 "source": false
               },
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.50694274902344,
-    "collapsed": true
+    "width": 240.50694274902344
   },
   "right": {
     "id": "2df733966731b51c",
@@ -196,10 +195,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "da13f25c73f54842",
+  "active": "b43b878032a602e7",
   "lastOpenFiles": [
     "03_Knowledge/Claude連携が突然できなくなった場合の対処.md",
-    "EC2_CloudWatchAgent_メモリ連携手順_AL2023.md",
+    "Claude/EC2_CloudWatchAgent_メモリ連携手順_AL2023.md",
     "Claude/Obsidian×GitHub連携手順.md",
     "Claude/身近なLinux搭載機器まとめ.md",
     "03_Knowledge/Obsidian使い方.md",
