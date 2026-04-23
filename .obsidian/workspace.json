@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.50694274902344
+    "width": 240.50694274902344,
+    "collapsed": true
   },
   "right": {
     "id": "2df733966731b51c",
@@ -210,7 +211,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b43b878032a602e7",
+  "active": "a29a6b6196f1b261",
   "lastOpenFiles": [
     "Claude/EC2_CloudWatchAgent_メモリ連携手順_AL2023.md",
     "Claude/AWS構築演習_ALB_ASG_EC2自動復旧.md",
