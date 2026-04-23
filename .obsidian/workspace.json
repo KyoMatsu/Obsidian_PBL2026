@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "EC2_CloudWatchAgent_メモリ連携手順_AL2023"
             }
+          },
+          {
+            "id": "33e8176154a2613c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Claude/AWS構築演習_ALB_ASG_EC2自動復旧.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AWS構築演習_ALB_ASG_EC2自動復旧"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -195,10 +210,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "da13f25c73f54842",
+  "active": "b43b878032a602e7",
   "lastOpenFiles": [
-    "03_Knowledge/Claude連携が突然できなくなった場合の対処.md",
     "Claude/EC2_CloudWatchAgent_メモリ連携手順_AL2023.md",
+    "Claude/AWS構築演習_ALB_ASG_EC2自動復旧.md",
+    "03_Knowledge/Claude連携が突然できなくなった場合の対処.md",
     "Claude/Obsidian×GitHub連携手順.md",
     "Claude/身近なLinux搭載機器まとめ.md",
     "03_Knowledge/Obsidian使い方.md",
@@ -226,7 +242,6 @@
     "99_Inbox/ウォーターフォールとアジャイルの違いを比較しながら解説！使い分け比較表.md",
     "99_Inbox/仕事でObsidianをどのように使っているか.md",
     "99_Inbox/ゲーミフィケーションとは？必須要素と事例＆バートルテストの解説！  日本コンベンションサービス株式会社 - JCS.md",
-    "03_Knowledge/.md",
     "04_Template/新規 テキスト ドキュメント.txt",
     "99_Inbox",
     "03_Knowledge",
