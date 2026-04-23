@@ -121,26 +121,14 @@
 
 EC2 > Launch Templates > Create launch template
 
-| 項目 | 値 |
-|---|---|
-| 名前 | `user01-lt` |
-| AMI | Amazon Linux 2023(最新) |
-| インスタンスタイプ | t3.micro |
-| キーペア | 指定なし(SSM使用のため) |
-| ネットワーク設定 | セキュリティグループ `user01-sg-ec2` を指定(サブネットは指定しない) |
-| IAMインスタンスプロファイル | `EC2-SSM-Role` |
-| User data | 下記参照 |
-
-#### User data(Apache自動インストール)
-
-```bash
-#!/bin/bash
-dnf update -y
-dnf install -y httpd
-systemctl enable httpd
-systemctl start httpd
-echo "<h1>Hello from $(hostname -f)</h1>" > /var/www/html/index.html
-```
+| 項目              | 値                                           |
+| --------------- | ------------------------------------------- |
+| 名前              | `user01-lt`                                 |
+| AMI             | 自分のAMI                                      |
+| インスタンスタイプ       | t3.micro                                    |
+| キーペア            | 指定なし(SSM使用のため)                              |
+| ネットワーク設定        | セキュリティグループ `user01-sg-ec2` を指定(サブネットは指定しない) |
+| IAMインスタンスプロファイル | `ssmAcceptRole`                             |
 
 ### ステップ3: Target Group の作成
 
@@ -164,15 +152,15 @@ EC2 > Target Groups > Create target group
 
 EC2 > Load Balancers > Create Load Balancer > Application Load Balancer
 
-| 項目 | 値 |
-|---|---|
-| 名前 | `user01-alb` |
-| Scheme | Internet-facing |
-| IP address type | IPv4 |
-| VPC | 自グループのVPC |
-| Mappings | AZ-a の Public-a、AZ-c の Public-c を選択 |
-| Security Group | `user01-sg-alb` |
-| Listener | HTTP:80 → Forward to `user01-tg` |
+| 項目              | 値                                   |
+| --------------- | ----------------------------------- |
+| 名前              | `user01-alb`                        |
+| Scheme          | Internet-facing                     |
+| IP address type | IPv4                                |
+| VPC             | 自グループのVPC                           |
+| Mappings        | AZ-a の Public-a、AZ-c の Public-c を選択 |
+| Security Group  | `user01-sg-alb`                     |
+| Listener        | HTTP:80 → Forward to `user01-tg`    |
 
 作成後、**ALBのDNS名をメモ**。
 
@@ -180,18 +168,18 @@ EC2 > Load Balancers > Create Load Balancer > Application Load Balancer
 
 EC2 > Auto Scaling Groups > Create Auto Scaling group
 
-| 項目 | 値 |
-|---|---|
-| 名前 | `user01-asg` |
-| Launch template | `user01-lt` |
-| VPC | 自グループのVPC |
-| Availability Zones and subnets | Private-a と Private-c の両方を選択 |
-| Load balancing | Attach to an existing load balancer → `user01-tg` を選択 |
-| **Health checks** | **ELB を有効化**(重要) |
-| Health check grace period | 120秒 |
-| Desired capacity | 1 |
-| Min capacity | 1 |
-| Max capacity | 1 |
+| 項目                             | 値                                                     |
+| ------------------------------ | ----------------------------------------------------- |
+| 名前                             | `user01-asg`                                          |
+| Launch template                | `user01-lt`                                           |
+| VPC                            | 自グループのVPC                                             |
+| Availability Zones and subnets | Private-a と Private-c の両方を選択                          |
+| Load balancing                 | Attach to an existing load balancer → `user01-tg` を選択 |
+| **Health checks**              | **ELB を有効化**(重要)                                      |
+| Health check grace period      | 120秒                                                  |
+| Desired capacity               | 1                                                     |
+| Min capacity                   | 1                                                     |
+| Max capacity                   | 1                                                     |
 
 **重要ポイント**: 
 - Health check type は **EC2 + ELB の両方** を有効化することで、ALBのヘルスチェック異常もASGが検知します
